@@ -1,6 +1,6 @@
 import axios, { AxiosInstance, AxiosError } from 'axios'
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://quanlyrapchieuphim-be.onrender.com/api'
+const API_URL ='https://quanlyrapchieuphim-be.onrender.com/api'
 
 class APIClient {
   private client: AxiosInstance
