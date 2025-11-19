@@ -21,6 +21,24 @@ const nextConfig = {
         pathname: '/**',
       },
       {
+        protocol: 'https',
+        hostname: 'encrypted-tbn0.gstatic.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'upload.wikimedia.org',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'hstatic.net',
+        port: '',
+        pathname: '/**',
+      },
+      {
         protocol: 'http',
         hostname: 'localhost',
         port: '',
@@ -31,7 +49,7 @@ const nextConfig = {
     unoptimized: process.env.NODE_ENV === 'development',
   },
   env: {
-    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api',
+    NEXT_PUBLIC_API_URL:'https://quanlyrapchieuphim-be.onrender.com/api',
     NEXT_PUBLIC_STRIPE_KEY: process.env.NEXT_PUBLIC_STRIPE_KEY,
   },
 }
